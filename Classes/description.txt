@@ -1,0 +1,30 @@
+Make your own fairy tale
+
+Once upon a time, in a meadow far far away, there was an incredibly beautiful Princess Goat. None of the Prince Goats in the land could resist to her wonderful voice and many of them wanted to marry her. Jealous of her popularity, an evil Witch Goat decided to transform every Prince Goat into humans so that the Princess Goat will never be able to marry any of them!
+Anyway the plans of the Witch Goat totally went wrong: First the human-transformed goats were still loving the Princess Goat and started to believe that a kiss may transform them back into Prince Goats, and then they decided to use their brand new body to chase the Witch Goat and she ended boiled in her own cauldron...
+
+[b]Any question or problem to use this mod? [url=http://steamcommunity.com/sharedfiles/filedetails/?id=314929396]Click here to read the FAQ.[/url][/b]
+
+[b]FEATURES[/b]
+- PRINCESS GOAT: You can transform humans into goats and you can charm everyone with your voice.
+
+[b]COMMANDS[/b]
+- [b][BaaKey]:[/b] Hold 1s to charm nearby creatures.
+- [b]Lick creature + [JumpKey]:[/b] Transform the creature you lick into a goat.
+
+[b]CHARACTERISTICS[/b]
+- Charmed creatures will run at you until they go ragdoll.
+- Transformed Goats are just some regular living goat with 4 possible skin colors.
+
+[b]EASTER EGGS[/b]
+- [spoiler]The charm is incredibly powerful, it will override any other behaviour of the charmed creature.[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- Charmed creatures can push each other and do stupid stuff: yes.
+- Goats look in the direction of the last Princess Goat who charmed them.
+
+[b]DEV NOTES[/b]
+[quote=About this mod]One more mod born from the mod request thread :) The first idea for this mod was the ability to transform people into goats. Then I also added the "charm" ability that was originally planned for a possible Toreador Goat (the base of the idea was to make people in a certain radius run at you).
+Transforming people into goat is not a really big deal in term of code, basically all I had to do was to destroy the original body, create a goat body and add a goat AI to control this new body. Then I added some fancy visual and sound effects to make it a bit more good looking ;)
+Making people run at you was a bit more challenging, I tried several methods but in the end only one of them had a chance to work: basically it's a hack of the default behaviour of the NPC AI. What I did exactly was to force the NPCs in the "attack" state so that they will run at you, then I made it so that they will have to wait infinitely before starting the attack, this way they just keep running until they hit something or you. And as soon as they ragdoll I cancel the charm effect. I also played the "congratulation" sound for the NPCs who have it to make it looks like people are really fan of your voice :p
+[/quote]
